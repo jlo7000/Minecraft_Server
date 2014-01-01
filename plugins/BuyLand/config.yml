@@ -1,0 +1,95 @@
+# BuyLand... Besure to make prices have .00 or it may break. Double
+general:
+  regionPriority: 1
+  sign:
+    showBuyLand: true
+  configVersion: 3
+buyland:
+  onCreate:
+    denyEntry: false
+    greetMessage:
+      display: true
+      erase: false
+    saveSchematic: true
+    removelwcprotection: false
+    worldGuardFlags:
+      default: ''
+  onBuyFromBank:
+    breakSign: false
+    denyEntry: false
+    greetMessage:
+      display: true
+      erase: false
+    placeSchematic: false
+    saveSchematic: true
+    price:
+      default: 100.0
+      perBlock: 1.0
+      usePerBlock: false
+    removelwcprotection: false
+    worldGuardFlags:
+      default: ''
+  onSaleToBank:
+    denyEntry: false
+    greetMessage:
+      display: true
+      erase: false
+    placeSchematic: true
+    saveSchematic: false
+    price:
+      percent: 1.0
+    removelwcprotection: false
+    worldGuardFlags:
+      default: ''
+  offlineLimit:
+    days: 30
+    enable: true
+    checkMembers: false
+  allowedWorldGuardFlags:
+    example: 0.0
+rentland:
+  onPlayerJoin:
+    notifyOfTimeLeft: true
+  onCreate:
+    denyEntry: false
+    greetMessage:
+      display: true
+      erase: false
+    saveSchematic: true
+    removelwcprotection: false
+    worldGuardFlags:
+      default: ''
+    price:
+      perMinDefault: 1.0
+  onRentBegin:
+    denyEntry: false
+    greetMessage:
+      display: true
+      erase: false
+    removelwcprotection: false
+    placeSchematic: false
+    saveSchematic: true
+    worldGuardFlags:
+      default: ''
+    maxRegions: 1
+  onRentExtend:
+    denyEntry: false
+    removelwcprotection: false
+    placeSchematic: false
+    saveSchematic: false
+    worldGuardFlags:
+      default: ''
+  onRentExpire:
+    denyEntry: false
+    greetMessage:
+      display: true
+      erase: false
+    removelwcprotection: false
+    placeSchematic: true
+    saveSchematic: false
+    broadcast:
+      available: true
+    worldGuardFlags:
+      default: ''
+  allowedWorldGuardFlags:
+    example: 0.0

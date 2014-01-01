@@ -1,0 +1,83 @@
+# BuyLand Language File.
+buyland:
+  general:
+    permission: You do not have permission for that command.
+    reload: Config reloaded!
+    error1: Error! Region name was incorrect.
+    error2: Error! Enter a Number/Price.
+    parameters: Incorrect number of parameters.
+  admin:
+    forsale: This Region has been placed back for sale.
+  rent:
+    forrent: This land is for rent!
+    noperm: You dont have permission to do that!
+    tenant: 'This land currently has a tenant - Time left: '
+    rentby: 'This land is being rented by '
+    notbe: This land can not be rented.
+    cantafford: '%s to rent the land.'
+    error1: Sorry Rentable land can not be bought nor sold.
+    error2: Sorry this region is not rentable.
+    max: You have rented the Maximum amount of land allowed.
+    price: 'The cost to rent this region for 1 %s is: %s'
+    notsneak: Sneak right-click the sign to rent the land.
+  sell:
+    forsale: This land is for sale.
+    back1: 'You have sold back the land for '
+    back2: '. Your balance is: %s'
+    dontown: You do not own this land!
+    notsneak: You must be sneaking when you click a sign to sell land!
+    permission: You do not have permission to sell a region.
+  member:
+    removemember: Removed Member!
+    addmember: Added Member!
+  buy:
+    max: You have bought the Maximum amount of land allowed.
+    welcome1: 'Welcome to '
+    welcome2: '`s Land!'
+    cantafford: '%s to buy the land.'
+    bought: You bought the land for %s and you now have %s
+    dontown: Sorry this land is not buyable.
+    permission: You do not have permission to buy a region.
+  price:
+    price: You currently have %s to purchase this land.
+    cost: 'This land is buyable and costs: '
+    max1: 'You have '
+    max2: ' pieces of land. The Max is '
+    dontown: Sorry this land is not buyable.
+  flag:
+    cantafford: '%s to buy the region flag.'
+    buy: 'You bought the flag for %s. Your balance is: %s'
+    sell: 'You have sold the flag for %s. Your balance is: %s'
+  sign:
+    instructions:
+      header: 'Sign Instructions:'
+      forsale:
+        left: left-click break sign with rights.
+        right: right-click does nothing.
+        sneakleft: sneak left-click does nothing.
+        sneakright: sneak right-click to buy region.
+      own:
+        left: left-click break sign with rights.
+        right: right-click does nothing.
+        sneakleft: sneak left-click view flag options.
+        sneakright: sneak right-click to sell region.
+      forrent:
+        left: left-click break sign with rights.
+        right: right-click to cycle through time frames.
+        sneakleft: sneak left-click does nothing
+        sneakright: sneak right-click to rent region.
+      rent:
+        left: left-click break sign with rights.
+        right: right-click to cycle through time frames.
+        sneakleft: sneak left-click view flag options.
+        sneakright: sneak right-click to extend rent.
+      flags:
+        left: left-click to view region flags options.
+        right: right-click to view available region flags.
+        sneakleft: sneak left-click to exit flag options.
+        sneakright: sneak right-click to toggle flag option.
+    break:
+      adminonly: Only an admin or with permission can break this sign.
+      notowner: Only an admin or the owner can break this sign.
+general:
+  configVersion: 3

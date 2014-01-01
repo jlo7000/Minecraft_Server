@@ -1,0 +1,8 @@
+# BuyLand Sign DB File. Used to keep track of signs.
+general:
+  configVersion: 2
+sign:
+  placeholder:
+    location: location
+    state: default
+    inactiveexempt: false

@@ -1,0 +1,12 @@
+general:
+  logger:
+    colour: true
+  updater:
+    enable: true
+    logChecks: false
+colorScheme:
+  success: '&a'
+  error: '&c'
+  info: '&6'
+  title: '&3'
+  tp: '&d'
