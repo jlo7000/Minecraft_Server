@@ -1,0 +1,15 @@
+broadcast:
+  pre: '&9AutoSaving Thanks Obama'
+  post: '&9AutoSave Complete Thanks Obama'
+broadcastbackup:
+  pre: '&9AutoBackuping Thanks Obama'
+  post: '&9AutoBackup Complete Thanks Obama'
+broadcastpurge:
+  pre: '&9AutoPurging'
+  post: '&9AutoPurge Complete'
+insufficentpermissions: '&cYou do not have access to that command.'
+autorestart:
+  restarting: '&9Server is restarting Thanks Obama'
+  countdown: '&9Server will restart in {SECONDS} seconds Thanks Obama'
+worldregen:
+  kickmessage: '&9Server is regenerating map, please come back later Thanks Obama'

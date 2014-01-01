@@ -1,0 +1,9 @@
+# BuyLand rent file.  Used to keep track of regions rented by players.
+general:
+  configVersion: 2
+rent:
+  placeholder:
+    time: 0
+    rentable: true
+    world: world
+    costpermin: 1.0

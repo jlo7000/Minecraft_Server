@@ -1,0 +1,29 @@
+# SecureChests 0.7.0
+# You can now use the following settings to configure
+# SecureChests to lock Chests, Furnaces, Dispensers & Doors.
+
+Active:
+  Chest: true
+  Furnace: true
+  Dispenser: true
+  Door: true
+  Trapdoor: true
+  Potion: true
+  Gate: true
+  Jukebox: true
+Block_Explosions:
+  Chest: true
+  Furnace: true
+  Dispenser: true
+  Door: true
+  Trapdoor: true
+  Potion: true
+  Gate: true
+  Jukebox: true
+Notification:
+  Own: true
+  Other: true
+  Deny: true
+  Override: true
+ghost_purge_on_startup: false
+usecustom: false

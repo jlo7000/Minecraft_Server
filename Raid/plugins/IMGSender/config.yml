@@ -1,0 +1,29 @@
+# ##################################################### #
+# 			 IMGSender Configuration				  #
+#  See http://dev.bukkit.org/bukkit-plugins/img-sender  #
+# 			  for more informations.				  #
+# ##################################################### #
+
+Config:
+  EnableUpdater: true
+  Unauthorized:
+    Words:
+    - porn
+    - dick
+    - 4tube
+  ChatFormat: '</sender/> :'
+  CacheDirectory: plugins\IMGSender\cache
+  TextCenter: false
+RescaleOp:
+  ScaleFactor: '0.0'
+  Offset: '0.0'
+Cache:
+  Size:
+    Max: 10
+ImageSize:
+  Min: 5
+  Max: 25
+Default:
+  URL: http://www.skyost.eu/wp-content/uploads/2013/12/IMGSender.png
+  Size: 15
+  Char: MEDIUM_SHADE

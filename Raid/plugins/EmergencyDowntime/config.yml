@@ -1,0 +1,5 @@
+Kickmessage: '&fServer needs downtime! Come back later!'
+OPExempt: '&fAs op you may remain in the Server while it is in downtime!'
+PartialDowntimeMsg: '&fServer is in partial lockdown! If you leave you may not be
+  allowed to re-enter!'
+reload: false

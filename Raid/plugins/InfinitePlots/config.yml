@@ -1,0 +1,23 @@
+generator-only: false
+grid-size: 32
+grid-height: 20
+use-signs: true
+track-stats: true
+owner-prefix: Plot Owner
+reset:
+  delay: 5
+  pertick: 2000
+claim:
+  protect-paths: false
+  max: 25
+  max-unused: 4
+  cost: 0.0
+blocks:
+  path: 43
+  path-data: 0
+  lower-wall: 98
+  lower-wall-data: 0
+  upper-wall: 85
+  upper-wall-data: 0
+  surface: 2
+  ground: 3

@@ -1,0 +1,45 @@
+timestamps:
+  login: 1388337854096
+  logout: 1388337751694
+  lastteleport: 1388336394566
+  kits:
+    tools: 1384120675458
+    firework: 1384628475057
+    dtools: 1384120698358
+  jail: 0
+ipAddress: 127.0.0.1
+lastlocation:
+  world: world
+  x: -527.9250000119208
+  y: 64.0
+  z: 345.9314188563157
+  yaw: -133.547
+  pitch: 7.7999945
+godmode: false
+afk: false
+ban:
+  timeout: 0
+logoutlocation:
+  world: world
+  x: -26.790315886840773
+  y: 87.42594060292168
+  z: 111.71585036054452
+  yaw: -165.45071
+  pitch: 81.149994
+powertools: {}
+homes:
+  home:
+    world: world
+    x: -420.73551541615507
+    y: 63.0
+    z: 405.3256017714513
+    yaw: -283.34985
+    pitch: 5.3999906
+money: '4862.0'
+unlimited:
+- 5
+- 89
+- 20
+socialspy: true
+geolocation: N/A
+jailed: false
